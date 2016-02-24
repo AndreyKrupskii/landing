@@ -54,7 +54,6 @@ $(document).ready(function(){
         })
         $('.portfolio_item').css('height',a);
     }
-//    setMixedItemsHeight();
     function setMapHeight(){
         $('.map').css("height",$('.map_img').height());
     }
@@ -74,7 +73,6 @@ $(document).ready(function(){
         setHeaderSize();
         setMenuMascSize();
         setHexHeight();
-//        setMixedItemsHeight();
         setMapHeight();
         onTop();
     }); 
